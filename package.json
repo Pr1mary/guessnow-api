@@ -1,0 +1,19 @@
+{
+  "name": "guessnow-api",
+  "version": "1.0.0",
+  "description": "Back-end api for GuessNow android app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pr1mary/guessnow-api.git"
+  },
+  "author": "Rafli",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Pr1mary/guessnow-api/issues"
+  },
+  "homepage": "https://github.com/Pr1mary/guessnow-api#readme"
+}
