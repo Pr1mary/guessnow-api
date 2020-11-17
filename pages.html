@@ -17,9 +17,18 @@
 </head>
 <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
-        let socket = io();
-
+        $(() => {
+            let socket = io();
+            $("form").submit((e) => {
+                e.preventDefault();
+                socket.emit("789", $("#m").val());
+                $("#m").val("");
+                return false;
+            });
+        });
+        
     </script>
     <ul id="messages"></ul>
     <form action="">
