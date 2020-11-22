@@ -3,6 +3,8 @@ let app = express();
 let http = require("http").createServer(app);
 let io = require("socket.io")(http);
 
+let port = 3000, time = 1;
+
 let room = ["Reserved"];
 room.push("123");
 room.push("456");
@@ -21,16 +23,23 @@ io.on("connection", (socket) => { //connect user to server
     
     room.forEach(num => {
         socket.on(num, (msg) => { //connect user to room
-            console.log("message on room "+num+":"+msg);
-            io.emit(num, msg); //broadcast message to every one
+
+            if(msg == "anjing"){
+                console.log("bad word detected!");
+            }else{
+                console.log("message on room "+num+":"+msg);
+                io.emit(num, msg); //broadcast message to every one
+            }
+            
         });
     });
 
+    
     // socket.broadcast.emit("789");
 
 });
 
 
-http.listen(3000, ()=>{
-    console.log("start");
+http.listen(port, ()=>{
+    console.log("start, listen at port: "+port);
 })
