@@ -3,15 +3,27 @@ let app = express();
 let http = require("http").createServer(app);
 let io = require("socket.io")(http);
 
-let port = 3000, time = 1;
+let port = 3000;
 
-let room = ["Reserved"];
-room.push("123");
-room.push("456");
-room.push("789");
+let roomList = [];
 
-app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/pages.html");
+roomList.push("123");
+roomList.push("456");
+roomList.push("789");
+
+app.get("/reqroom", (req, res) => {
+    let region = "IDN";
+    let roomcode;
+    roomcode = Math.floor(Math.random()*1000000);
+    roomList.forEach(room => {
+        if(room == roomcode){
+            roomcode = Math.floor(Math.random()*1000000);
+        }
+    });
+    roomcode += region;
+    roomList.push(roomcode);
+    res.send({ "room": roomcode.toString()});
+    // res.sendFile(__dirname + "/pages.html");
 });
 
 io.on("connection", (socket) => { //connect user to server
