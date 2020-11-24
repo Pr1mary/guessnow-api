@@ -7,9 +7,7 @@ let port = 3000;
 
 let roomList = [];
 
-roomList.push("123");
-roomList.push("456");
-roomList.push("789");
+roomList.push("sampleroom");
 
 app.get("/reqroom", (req, res) => {
     let region = "IDN";
@@ -26,6 +24,10 @@ app.get("/reqroom", (req, res) => {
     // res.sendFile(__dirname + "/pages.html");
 });
 
+// app.post("/username/{id}", (req, res) => {
+
+// });
+
 io.on("connection", (socket) => { //connect user to server
     console.log("user connected");
 
@@ -33,7 +35,7 @@ io.on("connection", (socket) => { //connect user to server
         console.log("user disconnected");
     });
     
-    room.forEach(num => {
+    roomList.forEach(num => {
         socket.on(num, (msg) => { //connect user to room
 
             if(msg == "anjing"){
@@ -52,6 +54,6 @@ io.on("connection", (socket) => { //connect user to server
 });
 
 
-http.listen(port, ()=>{
+http.listen(port, () => {
     console.log("start, listen at port: "+port);
-})
+});
