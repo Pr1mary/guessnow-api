@@ -1,8 +1,9 @@
 let express = require("express");
-const { runInContext } = require("vm");
 let app = express();
 let socket = require("socket.io");
 let port = 3000;
+let server = app.listen(port, () => { console.log("start, listen at port: "+port); });
+let io = socket(server);
 
 let qstList = require("./data/game_data.json");
 let roomList = [];
@@ -17,11 +18,9 @@ let qst;
 
 roomList.push("adminroom");
 
-let server = app.listen(port, () => {
-    console.log("start, listen at port: "+port);
-});
 
-let io = socket(server);
+
+
 
 app.get("/reqroom", (req, res) => {
 
@@ -49,10 +48,13 @@ io.on("connection", socket => { //connect user to server
     });
     
     roomList.forEach(room => {
-        let gameRoom = room+"-msg",
-        qstRoom = room+"-qst",
-        ldRoom = room+"-ld";
+
+        let gameRoom = room+"-msg";
+        let qstRoom = room+"-qst";
+        let ldRoom = room+"-ld";
         
+        let userAns;
+
         socket.on(gameRoom, msgObj => { //connect user to room
 
             if(msgObj.msg == "anjing"){
@@ -63,7 +65,16 @@ io.on("connection", socket => { //connect user to server
             }
             
         });
+
+        socket.on(qstRoom, msgObj => {
+            io.emit(qstRoom, )
+        });
+
     });
+
+});
+
+
 
     // socket.on("adminroom", msgObj => {
         
@@ -80,7 +91,3 @@ io.on("connection", socket => { //connect user to server
     //         rand = true;
     //     }
     // });
-
-});
-
-
