@@ -14,13 +14,19 @@ let currQstList = [{
     QST: "",
     ANS: ""
 }];
+let userPointList = [{
+    ROOM: "",
+    USRLST: [{
+        NAME: "",
+        SCORE: ""
+    }]
+}];
 
-let rand = true;
-
-roomList.push("adminroom");
+let gameRound = 5;
 
 app.use(bodyparser.json());
 
+//get method for request room id
 app.get("/reqroom", (req, res) => {
 
     let roomcode;
@@ -28,6 +34,7 @@ app.get("/reqroom", (req, res) => {
     roomList.push(roomcode);
     res.send({ "room": roomcode.toString()});
 
+    //add first question
     let qst = qstList[Math.floor(Math.random()*149)];
     currQstList.push({
         ROOM: roomcode+"-qst",
@@ -35,11 +42,22 @@ app.get("/reqroom", (req, res) => {
         ANS: qst.ANS
     });
 
+    //create leaderboard
+    userPointList.push({
+        ROOM: roomcode+"-ld",
+        USRLST: [{
+            NAME: "",
+            SCORE: ""
+        }]
+    });
+
+    //show room id list
     roomList.forEach(roomid => {
-        console.log("-"+roomid+"-");
+        console.log(">>"+roomid+"<<");
     });
 });
 
+//post method for user login
 app.post("/joinuser", (req, res) => {
 
     let perms = true, access;
@@ -62,6 +80,7 @@ app.post("/joinuser", (req, res) => {
     res.send({ "perms": access});
 });
 
+//post method for user logout
 app.post("/quituser", (req, res) => {
     
     let index, currStatus;
@@ -81,6 +100,7 @@ app.post("/quituser", (req, res) => {
     res.send({ status: currStatus});
 });
 
+//socket io connection process
 io.on("connection", socket => { //connect user to server
     console.log("user connected");
 
@@ -96,6 +116,10 @@ io.on("connection", socket => { //connect user to server
         
         let userAns;
 
+        let winnerName;
+        let winnerScore = 0;
+
+        //show first question
         currQstList.forEach(currQst => {
             if(currQst.ROOM == qstRoom){
                 io.emit(qstRoom, {
@@ -104,52 +128,65 @@ io.on("connection", socket => { //connect user to server
             }
         });
 
+        //add user to leaderboard
+        socket.on(ldRoom, msgObj => {
+            userPointList.forEach(userPoint => {
+                if(userPoint.ROOM == ldRoom){
+                    userPoint.USRLST.push({
+                        NAME: msgObj.user,
+                        SCORE: 0
+                    });
+                    console.log(msgObj.user+" has joined");
+                }
+            });
+        });
+
         //game chat transmission
         socket.on(gameRoom, msgObj => {
 
             console.log("message on room "+room+": "+msgObj.msg);
+            let currUser = msgObj.user;
             userAns = msgObj.msg;
-
+            
+            //show next question if answer is right
             currQstList.forEach(currQst => {
-                if(currQst.ROOM == qstRoom && currQst.ANS == userAns){
-                    qst = qstList[Math.floor(Math.random()*99)];
-                    currQst.QST = qst.QST;
-                    currQst.ANS = qst.ANS;
+                if(currQst.ROOM == qstRoom && currQst.ANS.toLocaleLowerCase() == userAns.toLocaleLowerCase()){
+                    
+                    userPointList.forEach(userPoint => {
+                        if(userPoint.ROOM == ldRoom){
+                            userPoint.USRLST.forEach(user => {
+                                if(user.NAME == currUser) user.SCORE++;
+
+                                if(winnerScore < user.SCORE){
+                                    winnerScore = user.SCORE;
+                                    winnerName = user.NAME;
+                                }
+
+                                console.log("current "+user.NAME+" score is "+user.SCORE);
+                            });
+                            
+                        }
+                    });
+
+                    if(winnerScore >= 5){
+                        currQst.QST = "The winner is "+winnerName+"!";
+                        currQst.ANS = null;
+                    }else{
+                        qst = qstList[Math.floor(Math.random()*99)];
+                        currQst.QST = qst.QST;
+                        currQst.ANS = qst.ANS;
+                    }
 
                     console.log("QST: "+currQst.QST);
                     io.emit(qstRoom, { "QST": currQst.QST });
-                    
+
                 }
             });
-
+        
             io.emit(gameRoom, msgObj); //broadcast message to every one
-            
-        });
-
-        //game question transmission
-        socket.on(qstRoom, () => {
-
             
         });
 
     });
 
 });
-
-
-
-    // socket.on("adminroom", msgObj => {
-        
-    //     if(rand){
-    //         qst = qstList[Math.floor(Math.random()*99)];
-    //         rand = false;
-    //     }
-    //     console.log("Jawaban dari "+msgObj.user+" adalah "+msgObj.msg);
-    //     console.log(qst.TekaTeki);
-    //     if(qst.Jawaban != msgObj.msg){
-    //         console.log("Jawaban salah");
-    //     }else{
-    //         console.log("Jawaban Benar");
-    //         rand = true;
-    //     }
-    // });
