@@ -1,338 +1,603 @@
 ﻿[
-        {
-            "TekaTeki": "Pemberat besi pada kapal",
-            "Jawaban": "Jangkar"
-        },
-        {
-            "TekaTeki": "Alat untuk mengambil gambar",
-            "Jawaban": "Kamera"
-        },
-        {
-            "TekaTeki": "Bagian dari hewan Unta",
-            "Jawaban": "Punuk"
-        },
-        {
-            "TekaTeki": "Benda tajam untuk membuka slot",
-            "Jawaban": "Kunci"
-        },
-        {
-            "TekaTeki": "Penyimpanan uang",
-            "Jawaban": "Bank"
-        },
-        {
-            "TekaTeki": "Temannya Garpu",
-            "Jawaban": "Sendok"
-        },
-        {
-            "TekaTeki": "Salah satu bahan untuk membuat adonan",
-            "Jawaban": "Tepung"
-        },
-        {
-            "TekaTeki": "Reptil yang terancam punah",
-            "Jawaban": "Komodo"
-        },
-        {
-            "TekaTeki": "Kaki ayam",
-            "Jawaban": "Ceker"
-        },
-        {
-            "TekaTeki": "Negara Shah Rukh Khan",
-            "Jawaban": "India"
-        },
-        {
-            "TekaTeki": "Makanan khas Daerah Istimewa Yogyakarta",
-            "Jawaban": "Gudeg"
-        },
-        {
-            "TekaTeki": "Jajanan asli Jakarta",
-            "Jawaban": "Kerak Telor"
-        },
-        {
-            "TekaTeki": "Benda ini bisa membunuhmu perlahan",
-            "Jawaban": "Rokok"
-        },
-        {
-            "TekaTeki": "Tempat kriminal berkumpul",
-            "Jawaban": "Penjara"
-        },
-        {
-            "TekaTeki": "Sihir menusuk boneka",
-            "Jawaban": "Santet"
-        },
-        {
-            "TekaTeki": "Makanan lebah",
-            "Jawaban": "Madu"
-        },
-        {
-            "TekaTeki": "Bagian dari tangan ",
-            "Jawaban": "Kuku"
-        },
-        {
-            "TekaTeki": "Alat tapping Binusian",
-            "Jawaban": "Flazz "
-        },
-        {
-            "TekaTeki": "Makanan kucing",
-            "Jawaban": "Ikan"
-        },
-        {
-            "TekaTeki": "Kutukan Malin Kundang",
-            "Jawaban": "Batu"
-        },
-        {
-            "TekaTeki": "Ibu untuk hewan",
-            "Jawaban": "Induk"
-        },
-        {
-            "TekaTeki": "Planet kedua dari matahari",
-            "Jawaban": "Venus"
-        },
-        {
-            "TekaTeki": "Ideologi Indonesia",
-            "Jawaban": "Pancasila"
-        },
-        {
-            "TekaTeki": "Tempat memasak",
-            "Jawaban": "Dapur"
-        },
-        {
-            "TekaTeki": "Kata Sandi",
-            "Jawaban": "Password"
-        },
-        {
-            "TekaTeki": "Rasanya asin",
-            "Jawaban": "Garam"
-        },
-        {
-            "TekaTeki": "Benda untuk menaruh makanan",
-            "Jawaban": "Piring"
-        },
-        {
-            "TekaTeki": "Pengguna tangan kiri",
-            "Jawaban": "Kidal"
-        },
-        {
-            "TekaTeki": "Air dari langit",
-            "Jawaban": "Hujan"
-        },
-        {
-            "TekaTeki": "Pidato",
-            "Jawaban": "Ceramah"
-        },
-        {
-            "TekaTeki": "Pemakan Serangga",
-            "Jawaban": "Insektivora"
-        },
-        {
-            "TekaTeki": "Wiraswasta",
-            "Jawaban": "Pengangguran"
-        },
-        {
-            "TekaTeki": "Tempat makan",
-            "Jawaban": "Restoran"
-        },
-        {
-            "TekaTeki": "Tempat tinggal burung untuk bertelur",
-            "Jawaban": "Sarang"
-        },
-        {
-            "TekaTeki": "Taat",
-            "Jawaban": "Patuh"
-        },
-        {
-            "TekaTeki": "Jenis olahraga",
-            "Jawaban": "Sepakbola"
-        },
-        {
-            "TekaTeki": "Satuan Tegangan Listrik",
-            "Jawaban": "Volt"
-        },
-        {
-            "TekaTeki": "Jendela Ilmu Pengetahuan",
-            "Jawaban": "Buku"
-        },
-        {
-            "TekaTeki": "Negara yang menjajah Indonesia selama tiga tahun",
-            "Jawaban": "Jepang"
-        },
-        {
-            "TekaTeki": "Lembaga non-profit untuk tujuan sosial",
-            "Jawaban": "Yayasan"
-        },
-        {
-            "TekaTeki": "Hewan yang bernafas dengan insang",
-            "Jawaban": "Ikan"
-        },
-        {
-            "TekaTeki": "Panca",
-            "Jawaban": "Lima"
-        },
-        {
-            "TekaTeki": "Tempat Abu Rokok",
-            "Jawaban": "Asbak"
-        },
-        {
-            "TekaTeki": "Virus yang dilemahkan",
-            "Jawaban": "Vaksin"
-        },
-        {
-            "TekaTeki": "Pembual",
-            "Jawaban": "Pembohong"
-        },
-        {
-            "TekaTeki": "Bahan utama dalam pembuatan Tempe",
-            "Jawaban": "Kedelai"
-        },
-        {
-            "TekaTeki": "Antonim dari senang",
-            "Jawaban": "Sedih"
-        },
-        {
-            "TekaTeki": "Ayah dari Ibu kandung ",
-            "Jawaban": "Kakek"
-        },
-        {
-            "TekaTeki": "Akhir dari benda",
-            "Jawaban": "Ujung"
-        },
-        {
-            "TekaTeki": "Tempat Tinggal",
-            "Jawaban": "Rumah"
-        },
-        {
-            "TekaTeki": "Tidak ada identitas",
-            "Jawaban": "Anonim"
-        },
-        {
-            "TekaTeki": "Hewan yang berkembang biak dengan melahirkan",
-            "Jawaban": "Mamalia"
-        },
-        {
-            "TekaTeki": "Bela diri dari Brazil",
-            "Jawaban": "Capoeira"
-        },
-        {
-            "TekaTeki": "Bangunan yang tinggi",
-            "Jawaban": "Menara"
-        },
-        {
-            "TekaTeki": "Ukuran waktu tertentu",
-            "Jawaban": "Jangka"
-        },
-        {
-            "TekaTeki": "Kediaman Raja dan Ratu Jawa",
-            "Jawaban": "Keraton"
-        },
-        {
-            "TekaTeki": "Barang yang berbutir halus",
-            "Jawaban": "Serbuk"
-        },
-        {
-            "TekaTeki": "Butir padi yang lepas dari tangkai",
-            "Jawaban": "Gabah"
-        },
-        {
-            "TekaTeki": "Narkotika, Psikotropika, dan obat-obatan terlarang",
-            "Jawaban": "Narkoba"
-        },
-        {
-            "TekaTeki": "Isi dalam buah yang bisa ditanam kembali",
-            "Jawaban": "Biji"
-        },
-        {
-            "TekaTeki": "Mata uang Inggris",
-            "Jawaban": "Poundsterling"
-        },
-        {
-            "TekaTeki": "Alat untuk memanjat",
-            "Jawaban": "Tangga"
-        },
-        {
-            "TekaTeki": "Dinding dari bata",
-            "Jawaban": "Tembok"
-        },
-        {
-            "TekaTeki": "Pencipta Ford Motor Company",
-            "Jawaban": "Henry Ford"
-        },
-        {
-            "TekaTeki": "Teratur",
-            "Jawaban": "Tertib"
-        },
-        {
-            "TekaTeki": "Satu-satunya negara yang tidak pernah dijajah di Asia Tenggara",
-            "Jawaban": "Thailand"
-        },
-        {
-            "TekaTeki": "Suka makan banyak",
-            "Jawaban": "Rakus"
-        },
-        {
-            "TekaTeki": "Persatuan Sepakbola Seluruh Indonesia",
-            "Jawaban": "PSSI"
-        },
-        {
-            "TekaTeki": "Ibukota Jawa Barat",
-            "Jawaban": "Bandung"
-        },
-        {
-            "TekaTeki": "Bangunan untuk menaruh pesawat terbang",
-            "Jawaban": "Hanggar"
-        },
-        {
-            "TekaTeki": "Pembuat obat",
-            "Jawaban": "Apoteker"
-        },
-        {
-            "TekaTeki": "Alat bantu melihat",
-            "Jawaban": "Kacamata"
-        },
-        {
-            "TekaTeki": "Penghasilan",
-            "Jawaban": "Gaji"
-        },
-        {
-            "TekaTeki": "Hewan penganggu produksi pertanian",
-            "Jawaban": "Hama"
-        },
-        {
-            "TekaTeki": "Tidak punya hati",
-            "Jawaban": "Kejam"
-        },
-        {
-            "TekaTeki": "Tempat/Letak",
-            "Jawaban": "Lokasi"
-        },
-        {
-            "TekaTeki": "Bahan pelapis jalan raya",
-            "Jawaban": "Aspal"
-        },
-        {
-            "TekaTeki": "Dehidrasi",
-            "Jawaban": "Haus"
-        },
-        {
-            "TekaTeki": "Mengambil barang orang lain secara paksa",
-            "Jawaban": "Merampok"
-        },
-        {
-            "TekaTeki": "Perairan di antara dua pulau",
-            "Jawaban": "Selat"
-        },
-        {
-            "TekaTeki": "Benang dari kepompong ulat yang halus",
-            "Jawaban": "Sutra"
-        },
-        {
-            "TekaTeki": "Orang yang mengorbankan dirinya kepada orang lain",
-            "Jawaban": "Pahlawan"
-        },
-        {
-            "TekaTeki": "Hutan lebat",
-            "Jawaban": "Rimba"
-        },
-        {
-            "TekaTeki": "Antonim ganjil",
-            "Jawaban": "Genap"
-        }
+    {
+        "QST": "Pemberat besi pada kapal",
+        "ANS": "Jangkar"
+    },
+    {
+        "QST": "Alat untuk mengambil gambar",
+        "ANS": "Kamera"
+    },
+    {
+        "QST": "Bagian dari hewan Unta",
+        "ANS": "Punuk"
+    },
+    {
+        "QST": "Benda tajam untuk membuka slot",
+        "ANS": "Kunci"
+    },
+    {
+        "QST": "Penyimpanan uang",
+        "ANS": "Bank"
+    },
+    {
+        "QST": "Temannya Garpu",
+        "ANS": "Sendok"
+    },
+    {
+        "QST": "Salah satu bahan untuk membuat adonan",
+        "ANS": "Tepung"
+    },
+    {
+        "QST": "Reptil yang terancam punah",
+        "ANS": "Komodo"
+    },
+    {
+        "QST": "Kaki ayam",
+        "ANS": "Ceker"
+    },
+    {
+        "QST": "Negara Shah Rukh Khan",
+        "ANS": "India"
+    },
+    {
+        "QST": "Makanan khas Daerah Istimewa Yogyakarta",
+        "ANS": "Gudeg"
+    },
+    {
+        "QST": "Benda ini bisa membunuhmu perlahan",
+        "ANS": "Rokok"
+    },
+    {
+        "QST": "Tempat kriminal berkumpul",
+        "ANS": "Penjara"
+    },
+    {
+        "QST": "Sihir menusuk boneka",
+        "ANS": "Santet"
+    },
+    {
+        "QST": "Makanan lebah",
+        "ANS": "Madu"
+    },
+    {
+        "QST": "Bagian dari tangan ",
+        "ANS": "Kuku"
+    },
+    {
+        "QST": "Alat tapping Binusian",
+        "ANS": "Flazz"
+    },
+    {
+        "QST": "Makanan kucing",
+        "ANS": "Ikan"
+    },
+    {
+        "QST": "Kutukan Malin Kundang",
+        "ANS": "Batu"
+    },
+    {
+        "QST": "Ibu untuk hewan",
+        "ANS": "Induk"
+    },
+    {
+        "QST": "Planet kedua dari matahari",
+        "ANS": "Venus"
+    },
+    {
+        "QST": "Ideologi Indonesia",
+        "ANS": "Pancasila"
+    },
+    {
+        "QST": "Tempat memasak",
+        "ANS": "Dapur"
+    },
+    {
+        "QST": "Kata Sandi",
+        "ANS": "Password"
+    },
+    {
+        "QST": "Rasanya asin",
+        "ANS": "Garam"
+    },
+    {
+        "QST": "Benda untuk menaruh makanan",
+        "ANS": "Piring"
+    },
+    {
+        "QST": "Pengguna tangan kiri",
+        "ANS": "Kidal"
+    },
+    {
+        "QST": "Air dari langit",
+        "ANS": "Hujan"
+    },
+    {
+        "QST": "Pidato",
+        "ANS": "Ceramah"
+    },
+    {
+        "QST": "Pemakan Serangga",
+        "ANS": "Insektivora"
+    },
+    {
+        "QST": "Tuna karya",
+        "ANS": "Pengangguran"
+    },
+    {
+        "QST": "Tempat makan",
+        "ANS": "Restoran"
+    },
+    {
+        "QST": "Tempat tinggal burung untuk bertelur",
+        "ANS": "Sarang"
+    },
+    {
+        "QST": "Taat",
+        "ANS": "Patuh"
+    },
+    {
+        "QST": "Jenis olahraga",
+        "ANS": "Sepakbola"
+    },
+    {
+        "QST": "Satuan Tegangan Listrik",
+        "ANS": "Volt"
+    },
+    {
+        "QST": "Jendela Ilmu Pengetahuan",
+        "ANS": "Buku"
+    },
+    {
+        "QST": "Negara yang menjajah Indonesia selama tiga tahun",
+        "ANS": "Jepang"
+    },
+    {
+        "QST": "Lembaga non-profit untuk tujuan sosial",
+        "ANS": "Yayasan"
+    },
+    {
+        "QST": "Hewan yang bernafas dengan insang",
+        "ANS": "Ikan"
+    },
+    {
+        "QST": "Panca",
+        "ANS": "Lima"
+    },
+    {
+        "QST": "Tempat Abu Rokok",
+        "ANS": "Asbak"
+    },
+    {
+        "QST": "Virus yang dilemahkan",
+        "ANS": "Vaksin"
+    },
+    {
+        "QST": "Pembual",
+        "ANS": "Pembohong"
+    },
+    {
+        "QST": "Bahan utama dalam pembuatan Tempe",
+        "ANS": "Kedelai"
+    },
+    {
+        "QST": "Antonim dari senang",
+        "ANS": "Sedih"
+    },
+    {
+        "QST": "Ayah dari Ibu kandung ",
+        "ANS": "Kakek"
+    },
+    {
+        "QST": "Akhir dari benda",
+        "ANS": "Ujung"
+    },
+    {
+        "QST": "Tempat Tinggal",
+        "ANS": "Rumah"
+    },
+    {
+        "QST": "Tidak ada identitas",
+        "ANS": "Anonim"
+    },
+    {
+        "QST": "Hewan yang berkembang biak dengan melahirkan",
+        "ANS": "Mamalia"
+    },
+    {
+        "QST": "Bela diri dari Brazil",
+        "ANS": "Capoeira"
+    },
+    {
+        "QST": "Bangunan yang tinggi",
+        "ANS": "Menara"
+    },
+    {
+        "QST": "Ukuran waktu tertentu",
+        "ANS": "Jangka"
+    },
+    {
+        "QST": "Kediaman Raja dan Ratu Jawa",
+        "ANS": "Keraton"
+    },
+    {
+        "QST": "Barang yang berbutir halus",
+        "ANS": "Serbuk"
+    },
+    {
+        "QST": "Butir padi yang lepas dari tangkai",
+        "ANS": "Gabah"
+    },
+    {
+        "QST": "Narkotika, Psikotropika, dan obat-obatan terlarang",
+        "ANS": "Narkoba"
+    },
+    {
+        "QST": "Isi dalam buah yang bisa ditanam kembali",
+        "ANS": "Biji"
+    },
+    {
+        "QST": "Mata uang Inggris",
+        "ANS": "Poundsterling"
+    },
+    {
+        "QST": "Alat untuk memanjat",
+        "ANS": "Tangga"
+    },
+    {
+        "QST": "Dinding dari bata",
+        "ANS": "Tembok"
+    },
+    {
+        "QST": "Teratur",
+        "ANS": "Tertib"
+    },
+    {
+        "QST": "Satu-satunya negara yang tidak pernah dijajah di Asia Tenggara",
+        "ANS": "Thailand"
+    },
+    {
+        "QST": "Suka makan banyak",
+        "ANS": "Rakus"
+    },
+    {
+        "QST": "Persatuan Sepakbola Seluruh Indonesia",
+        "ANS": "PSSI"
+    },
+    {
+        "QST": "Ibukota Jawa Barat",
+        "ANS": "Bandung"
+    },
+    {
+        "QST": "Bangunan untuk menaruh pesawat terbang",
+        "ANS": "Hanggar"
+    },
+    {
+        "QST": "Pembuat obat",
+        "ANS": "Apoteker"
+    },
+    {
+        "QST": "Alat bantu melihat",
+        "ANS": "Kacamata"
+    },
+    {
+        "QST": "Penghasilan",
+        "ANS": "Gaji"
+    },
+    {
+        "QST": "Hewan penganggu produksi pertanian",
+        "ANS": "Hama"
+    },
+    {
+        "QST": "Tidak punya hati",
+        "ANS": "Kejam"
+    },
+    {
+        "QST": "Tempat/Letak",
+        "ANS": "Lokasi"
+    },
+    {
+        "QST": "Bahan pelapis jalan raya",
+        "ANS": "Aspal"
+    },
+    {
+        "QST": "Dehidrasi",
+        "ANS": "Haus"
+    },
+    {
+        "QST": "Mengambil barang orang lain secara paksa",
+        "ANS": "Merampok"
+    },
+    {
+        "QST": "Perairan di antara dua pulau",
+        "ANS": "Selat"
+    },
+    {
+        "QST": "Benang dari kepompong ulat yang halus",
+        "ANS": "Sutra"
+    },
+    {
+        "QST": "Orang yang mengorbankan dirinya kepada orang lain",
+        "ANS": "Pahlawan"
+    },
+    {
+        "QST": "Hutan lebat",
+        "ANS": "Rimba"
+    },
+    {
+        "QST": "Antonim ganjil",
+        "ANS": "Genap"
+    },
+    {
+        "QST": "Selat di perbatasan Malaysia dan Sumatera",
+        "ANS": "Malaka"
+    },
+    {
+        "QST": "Search and Rescue",
+        "ANS": "SAR"
+    },
+    {
+        "QST": "Makanan untuk dibawa ke sekolah",
+        "ANS": "Bekal"
+    },
+    {
+        "QST": "Jenis ikan tawar",
+        "ANS": "Lele"
+    },
+    {
+        "QST": "Mata uang Indonesia",
+        "ANS": "Rupiah"
+    },
+    {
+        "QST": "Hewan merayap",
+        "ANS": "Cicak"
+    },
+    {
+        "QST": "Asal Rendang",
+        "ANS": "Padang"
+    },
+    {
+        "QST": "Taman Mini Indonesia Indah",
+        "ANS": "TMII"
+    },
+    {
+        "QST": "Tarian dari Bali",
+        "ANS": "Kecak"
+    },
+    {
+        "QST": "Angin topan",
+        "ANS": "Tornado"
+    },
+    {
+        "QST": "Pemilihan Umum",
+        "ANS": "Pemilu"
+    },
+    {
+        "QST": "Dewa Petir Yunani",
+        "ANS": "Zeus"
+    },
+    {
+        "QST": "Antonim dari Barat",
+        "ANS": "Timur"
+    },
+    {
+        "QST": "Alat Marawis",
+        "ANS": "Rebana"
+    },
+    {
+        "QST": "Undang-Undang Dasar",
+        "ANS": "UUD"
+    },
+    {
+        "QST": "Sangat lebar dan lapang",
+        "ANS": "Luas"
+    },
+    {
+        "QST": "Bohong",
+        "ANS": "Dusta"
+    },
+    {
+        "QST": "Mementingkan diri sendiri",
+        "ANS": "Egois"
+    },
+    {
+        "QST": "Barang yang dikirim dalam bingkisan melalui pos atau ekspedisi",
+        "ANS": "Paket"
+    },
+    {
+        "QST": "Kuda kecil",
+        "ANS": "Poni"
+    },
+    {
+        "QST": "Serangga dalam rambut",
+        "ANS": "Kutu"
+    },
+    {
+        "QST": "Rambut diatas bibir",
+        "ANS": "Kumis"
+    },
+    {
+        "QST": "Seruan untuk sholat",
+        "ANS": "Adzan"
+    },
+    {
+        "QST": "Upacara pembakaran mayat",
+        "ANS": "Ngaben"
+    },
+    {
+        "QST": "Negara dengan bentuk bendera yang berbeda dari yang biasanya",
+        "ANS": "Nepal"
+    },
+    {
+        "QST": "Alat masak",
+        "ANS": "Panci"
+    },
+    {
+        "QST": "Penyakit tenggorokan",
+        "ANS": "Radang"
+    },
+    {
+        "QST": "Tumbuhan berbatang keras",
+        "ANS": "Pohon"
+    },
+    {
+        "QST": "Selang waktu 8 tahun",
+        "ANS": "Windu"
+    },
+    {
+        "QST": "Lubang besar di kaki gunung",
+        "ANS": "Gua"
+    },
+    {
+        "QST": "Rusuh",
+        "ANS": "Kacau"
+    },
+    {
+        "QST": "Siap sedia",
+        "ANS": "Siaga"
+    },
+    {
+        "QST": "Makanan yang berbahan dasar tepung, terigu, dan air",
+        "ANS": "Roti"
+    },
+    {
+        "QST": "Cerek dari tembikar tempat air minum",
+        "ANS": "Teko"
+    },
+    {
+        "QST": "Paris",
+        "ANS": "Prancis"
+    },
+    {
+        "QST": "Meminta orang lain untuk mengerjakan sesuatu yang diharuskan walaupun tidak mau",
+        "ANS": "Memaksa"
+    },
+    {
+        "QST": "Bangunan peninggalan peradaban Hindu-Buddha",
+        "ANS": "Candi"
+    },
+    {
+        "QST": "Orang yang menjadi pemimpin sebuah rego",
+        "ANS": "Kapten"
+    },
+    {
+        "QST": "Ular sendok besar yang berbisa",
+        "ANS": "Kobra"
+    },
+    {
+        "QST": "Faktor keturunan",
+        "ANS": "Genetik"
+    },
+    {
+        "QST": "Gelar kebangsawanan untuk wanita",
+        "ANS": "Ratu"
+    },
+    {
+        "QST": "Pulau di Nusa Tenggara Barat",
+        "ANS": "Sumbawa"
+    },
+    {
+        "QST": "Janji dengan bersaksi kepada Tuhan",
+        "ANS": "Sumpah"
+    },
+    {
+        "QST": "Bermakna ganda",
+        "ANS": "Ambigu"
+    },
+    {
+        "QST": "Hewan yang memiliki kantung",
+        "ANS": "Kanguru"
+    },
+    {
+        "QST": "Sendi pada pintu",
+        "ANS": "Engsel"
+    },
+    {
+        "QST": "Sisaan tubuh hewan yang sudah mati",
+        "ANS": "Bangkai"
+    },
+    {
+        "QST": "Kendaraan tidak bisa berjalan",
+        "ANS": "Mogok"
+    },
+    {
+        "QST": "Istri raja",
+        "ANS": "Permaisuri"
+    },
+    {
+        "QST": "Perserikatan Bangsa-Bangsa",
+        "ANS": "PBB"
+    },
+    {
+        "QST": "Kristal putih yang memiliki rasa manis",
+        "ANS": "Gula"
+    },
+    {
+        "QST": "Tanah garapan",
+        "ANS": "Lahan"
+    },
+    {
+        "QST": "Logam batang untuk jalan kereta api",
+        "ANS": "Rel"
+    },
+    {
+        "QST": "Seni bela diri dari Cina",
+        "ANS": "Kungfu"
+    },
+    {
+        "QST": "Orang yang pekerjaannya mengajar di sekolah",
+        "ANS": "Guru"
+    },
+    {
+        "QST": "Uang logam",
+        "ANS": "Koin"
+    },
+    {
+        "QST": "Tulang kepala",
+        "ANS": "Tengkorak"
+    },
+    {
+        "QST": "Tumbuhan pengganggu",
+        "ANS": "Gulma"
+    },
+    {
+        "QST": "Ruang kursi pilot di pesawat",
+        "ANS": "Kokpit"
+    },
+    {
+        "QST": "Penyangga motor",
+        "ANS": "Standar"
+    },
+    {
+        "QST": "Ruang mandi uap",
+        "ANS": "Sauna"
+    },
+    {
+        "QST": "Daging tempat gigi tumbuh",
+        "ANS": "Gusi"
+    },
+    {
+        "QST": "Kain tempat melukis",
+        "ANS": "Kanvas"
+    },
+    {
+        "QST": "Adu kecepatan",
+        "ANS": "Lomba"
+    },
+    {
+        "QST": "Kerja paksa",
+        "ANS": "Rodi"
+    },
+    {
+        "QST": "Bagian telapak kaki di belakang",
+        "ANS": "Tumit"
+    },
+    {
+        "QST": "Tidak dekat",
+        "ANS": "Jauh"
+    },
+    {
+        "QST": "Perkataan bohong yang disebarkan",
+        "ANS": "Fitnah"
+    }
+    
 ]
