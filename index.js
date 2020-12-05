@@ -202,8 +202,6 @@ io.on("connection", socket => { //connect user to server
                 });
             });
 
-            
-        
             io.emit(gameRoom, msgObj); //broadcast message to every one
             
         });
