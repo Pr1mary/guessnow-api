@@ -91,13 +91,12 @@ app.post("/quituser", (req, res) => {
             userList.splice(index, 1);
             currStatus = "user quit";
         }
-        else currStatus = "user not found";
 
     } catch (error) {
         currStatus = error;
     }
 
-    res.send({ status: currStatus});
+    res.send({ status: "user quit"});
 });
 
 //socket io connection process
