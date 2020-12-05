@@ -171,12 +171,8 @@ io.on("connection", socket => { //connect user to server
                                     winnerScore = user.SCORE;
                                     winnerName = user.NAME;
                                 }
-
                                 console.log("current "+user.NAME+" score is "+user.SCORE);
-                                io.emit(ldRoom, {
-                                    NAME: user.NAME,
-                                    SCORE: user.SCORE
-                                });
+                                
                             });
                             
                         }
@@ -196,6 +192,17 @@ io.on("connection", socket => { //connect user to server
 
                 }
             });
+            
+            userPointList.forEach(userPoint => {
+                userPoint.USRLST.forEach(user => {
+                    io.emit(ldRoom, {
+                        NAME: user.NAME,
+                        SCORE: user.SCORE
+                    });
+                });
+            });
+
+            
         
             io.emit(gameRoom, msgObj); //broadcast message to every one
             
