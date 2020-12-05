@@ -101,8 +101,11 @@ app.post("/quituser", (req, res) => {
 
 //socket io connection process
 io.on("connection", socket => { //connect user to server
+
+    //user connected
     console.log("user connected");
 
+    //user disconnected
     socket.on("disconnect", () => {
         console.log("user disconnected");
     });
@@ -128,6 +131,8 @@ io.on("connection", socket => { //connect user to server
         });
 
         //add user to leaderboard
+        let currMsg
+        //add user to server leaderboard
         socket.on(ldRoom, msgObj => {
             userPointList.forEach(userPoint => {
                 if(userPoint.ROOM == ldRoom){
@@ -136,9 +141,15 @@ io.on("connection", socket => { //connect user to server
                         SCORE: 0
                     });
                     console.log(msgObj.user+" has joined");
+                    io.emit(ldRoom, {
+                        NAME: msgObj.user,
+                        SCORE: 0
+                    });
                 }
             });
         });
+        //add user to client leaderboard
+        
 
         //game chat transmission
         socket.on(gameRoom, msgObj => {
@@ -162,6 +173,10 @@ io.on("connection", socket => { //connect user to server
                                 }
 
                                 console.log("current "+user.NAME+" score is "+user.SCORE);
+                                io.emit(ldRoom, {
+                                    NAME: user.NAME,
+                                    SCORE: user.SCORE
+                                });
                             });
                             
                         }
@@ -169,7 +184,7 @@ io.on("connection", socket => { //connect user to server
 
                     if(winnerScore >= 5){
                         currQst.QST = "The winner is "+winnerName+"!";
-                        currQst.ANS = null;
+                        currQst.ANS = "";
                     }else{
                         qst = qstList[Math.floor(Math.random()*99)];
                         currQst.QST = qst.QST;
