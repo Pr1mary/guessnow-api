@@ -169,7 +169,7 @@ io.on("connection", socket => { //connect user to server
 
                     if(winnerScore >= 5){
                         currQst.QST = "The winner is "+winnerName+"!";
-                        currQst.ANS = null;
+                        currQst.ANS = "";
                     }else{
                         qst = qstList[Math.floor(Math.random()*99)];
                         currQst.QST = qst.QST;
