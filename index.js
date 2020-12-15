@@ -157,9 +157,14 @@ io.on("connection", socket => { //connect user to server
             console.log("message on room "+room+": "+msgObj.msg);
             let currUser = msgObj.user;
             userAns = msgObj.msg;
+
+            console.log(userAns);
             
             //show next question if answer is right
             currQstList.forEach(currQst => {
+
+                console.log(currQst);
+                
                 if(currQst.ROOM == qstRoom && currQst.ANS.toLocaleLowerCase() == userAns.toLocaleLowerCase()){
                     
                     userPointList.forEach(userPoint => {
@@ -194,16 +199,16 @@ io.on("connection", socket => { //connect user to server
             });
             
             userPointList.forEach(userPoint => {
-                userPoint.USRLST.forEach(user => {
-                    io.emit(ldRoom, {
-                        NAME: user.NAME,
-                        SCORE: user.SCORE
+                if(userPoint.ROOM == ldRoom){
+                    userPoint.USRLST.forEach(user => {
+                        io.emit(ldRoom, {
+                            NAME: user.NAME,
+                            SCORE: user.SCORE
+                        });
                     });
-                });
+                }
             });
 
-            
-        
             io.emit(gameRoom, msgObj); //broadcast message to every one
             
         });
